@@ -144,26 +144,6 @@ table.small-margin  {
   justify-content: space-around;
 }
 
-.container {
-  margin-bottom: 100px;
-}
-
-footer {
-  background-color: rgb(122, 134, 151);
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: rgb(255, 255, 255);
-  text-align: center;
-}
-
-@media (max-width: 480px){
-  footer { 
-      display : none; 
-      visibility : hidden; 
-  }
-}
 
 .fig-text {
   font-size: 0.8rem;
