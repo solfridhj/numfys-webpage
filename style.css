@@ -50,6 +50,10 @@ a.nav-link {
   width: 100%;
 }
 
+img.img-fluid.image{
+  margin-top: 20px;
+}
+
 .nav-link:hover{
   color: White;
 }
