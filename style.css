@@ -1,0 +1,160 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.dropdown-item {
+  color: rgb(255, 255, 255);
+  background-color: rgb(52, 58, 64);
+  margin-left: 1.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0rem;
+  width:75%;
+}
+
+.dropdown-menu.show {
+  background-color: rgb(52, 58, 64);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+
+}
+
+.dropdown-item:hover{
+  background-color: black;
+  color: White;
+  width: 95.5%;
+
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+
+.head {
+  color: black; /* blue colors for links too */
+  text-decoration: none;/* no underline */
+}
+
+.head:hover {
+  color: black; /* blue colors for links too */
+  text-decoration: none;/* no underline */
+}
+
+a.nav-link {
+  color: rgb(255, 255, 255) !important;
+  padding-left: 5px;
+  width: 100%;
+}
+
+.nav-link:hover{
+  color: White;
+}
+
+.nav-item:hover {
+  background-color: black;
+
+}
+
+.navbar {
+  padding-right: 0;
+}
+
+.navbar-toggler{
+  margin-right: 10px;
+}
+
+.dropdown-menu{
+  padding: 0 7px 0 0;
+
+  border: 0;
+
+}
+
+.jumbotron {
+  padding-top: 15px ;
+  padding-bottom: 15px;
+  background-color: hsl(213.9, 41.1%, 78%);
+  border-radius: 0 !important;
+  width: 100%;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+table, th, td {
+  margin-top: 50px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  padding: 7px;
+}
+
+th {
+  padding: 13px;
+}
+
+
+th {
+  background-color: hsl(213.9, 41.1%, 78%);
+
+}
+
+h3 {
+  text-align: center;
+}
+
+table.small-margin  {
+  margin-top: 5px;
+}
+
+.headline {
+  text-align: center;
+  color: #4671a8;
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+}
+
+.small-headline {
+  color: #4671a8;
+  padding-top: 20px;
+  padding-bottom: 5px;
+
+}
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+footer {
+  background-color: rgb(122, 134, 151);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+@media (max-width: 480px){
+  footer { 
+      display : none; 
+      visibility : hidden; 
+  }
+}
