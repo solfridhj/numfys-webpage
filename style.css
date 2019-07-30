@@ -1,6 +1,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
+  
 }
 
 .dropdown-item {
@@ -86,10 +87,6 @@ img.img-fluid.image{
   width: 100%;
 }
 
-.frontpage-headline {
-  background-color: rgb(226, 226, 226);
-  width: 100%;
-}
 
 table.center {
   margin-left: auto;
