@@ -4,7 +4,6 @@ body {
   
 }
 
-.
 
 .dropdown-item {
   color: rgb(255, 255, 255);
@@ -153,16 +152,10 @@ table.small-margin  {
 }
 
 footer {
-  bottom: 0;
-  position: absolute;
   left: 0;
   height: 30px;
   width: 100%;
   text-align: center;
   color: #4671a8;
-  background-color: rgb(196, 196, 196);
+  
 } 
-
-footer.front-footer {
-  position: relative;
-}
