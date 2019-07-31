@@ -4,6 +4,21 @@ body {
   
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 30px;
+}
+
 .dropdown-item {
   color: rgb(255, 255, 255);
   background-color: rgb(52, 58, 64);
