@@ -149,3 +149,18 @@ table.small-margin  {
   font-size: 0.8rem;
   font-style: italic;
 }
+
+footer {
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  color: #4671a8;
+  background-color: rgb(196, 196, 196);
+} 
+
+footer.front-footer {
+  position: relative;
+}
