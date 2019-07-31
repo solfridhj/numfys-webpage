@@ -151,11 +151,28 @@ table.small-margin  {
   font-style: italic;
 }
 
-footer {
-  left: 0;
-  height: 30px;
-  width: 100%;
-  text-align: center;
-  color: #4671a8;
-  
-} 
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   background-color: rgb(221, 221, 221);
+   color: rgb(136, 156, 199);
+   text-align: center;
+}
