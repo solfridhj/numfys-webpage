@@ -178,3 +178,13 @@ body {
    color: rgb(136, 156, 199);
    text-align: center;
 }
+
+#quote {
+  color: #7f6b81;
+  
+}
+
+#author {
+  color: #39333a;
+  padding-left: 30px;
+}
