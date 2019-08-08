@@ -275,7 +275,7 @@ body {
 .dot:hover {
   background-color: #717171;
 }
-/*
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 5.0s;
@@ -284,16 +284,16 @@ body {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .9} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .9} 
   to {opacity: 1}
 
 }
-*/
+
 @media only screen and (max-width: 1200px) {
   .slideshow-container{
     display: none;
