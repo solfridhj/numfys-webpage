@@ -193,7 +193,7 @@ body {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  height: 700px;
+  height: auto;
   overflow: hidden;
 }
 
@@ -244,8 +244,8 @@ body {
   font-size: 15px;
   padding-top: 12px;
   padding-bottom: 12px;
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  bottom: -10px;
   width: 100%;
   text-align: center;
   background-color: #222428;
